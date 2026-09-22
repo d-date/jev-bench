@@ -1,0 +1,162 @@
+{
+  "s01" : {
+    "deadlines" : [
+      "today",
+      "3 days ago"
+    ],
+    "exclusions" : [
+
+    ],
+    "figures" : [
+      "all deposits have failed"
+    ],
+    "productArea" : "unknown",
+    "request" : "The customer wants immediate resolution for failed sales deposits since 3 days ago and the inability to receive a salary today."
+  },
+  "s02" : {
+    "deadlines" : [
+
+    ],
+    "exclusions" : [
+
+    ],
+    "figures" : [
+
+    ],
+    "productArea" : "iOS",
+    "request" : "After upgrading the iOS app SDK to v4.2, the build fails. An linker error occurs in Xcode 27 for the arm64 simulator."
+  },
+  "s03" : {
+    "deadlines" : [
+      "next month"
+    ],
+    "exclusions" : [
+
+    ],
+    "figures" : [
+      "80 users"
+    ],
+    "productArea" : "unknown",
+    "request" : "I want a quote for the Enterprise plan if the number of users increases to 80 next month."
+  },
+  "s04" : {
+    "deadlines" : [
+
+    ],
+    "exclusions" : [
+
+    ],
+    "figures" : [
+
+    ],
+    "productArea" : "unknown",
+    "request" : "I cannot log in because I lost the device I used for two-factor authentication after changing the model, and I did not receive the backup code."
+  },
+  "s05" : {
+    "deadlines" : [
+
+    ],
+    "exclusions" : [
+
+    ],
+    "figures" : [
+
+    ],
+    "productArea" : "unknown",
+    "request" : "When attempting to log in to the management screen, the redirection continues indefinitely, both on Chrome and Safari."
+  },
+  "s06" : {
+    "deadlines" : [
+
+    ],
+    "exclusions" : [
+
+    ],
+    "figures" : [
+      "12,000 yen"
+    ],
+    "productArea" : "unknown",
+    "request" : "Please confirm that the amount billed for the previous month is 12,000 yen more than the contract."
+  },
+  "s07" : {
+    "deadlines" : [
+      "4/3"
+    ],
+    "exclusions" : [
+
+    ],
+    "figures" : [
+      "2026-03-15",
+      "February usage"
+    ],
+    "productArea" : "unknown",
+    "request" : "I asked last Tuesday, and the bill due on 4/3 includes February usage and appears to be calculated at the pre-increase rate of 2026-03-15."
+  },
+  "s08" : {
+    "deadlines" : [
+      "next month"
+    ],
+    "exclusions" : [
+
+    ],
+    "figures" : [
+
+    ],
+    "productArea" : "app",
+    "request" : "The app push notification is not reaching iPhone devices, but it is reaching Android devices."
+  },
+  "s09" : {
+    "deadlines" : [
+
+    ],
+    "exclusions" : [
+
+    ],
+    "figures" : [
+
+    ],
+    "productArea" : "unknown",
+    "request" : "Please tell me the discount conditions to continue."
+  },
+  "s10" : {
+    "deadlines" : [
+
+    ],
+    "exclusions" : [
+
+    ],
+    "figures" : [
+      "5 minutes",
+      "thousands"
+    ],
+    "productArea" : "unknown",
+    "request" : "The production API is returning 502 across all regions, and it has not recovered for 5 minutes. Thousands of users cannot complete payments."
+  },
+  "s11" : {
+    "deadlines" : [
+
+    ],
+    "exclusions" : [
+
+    ],
+    "figures" : [
+
+    ],
+    "productArea" : "unknown",
+    "request" : "I want to revoke the permissions and remove the account from the billing list of the former member who has retired."
+  },
+  "s12" : {
+    "deadlines" : [
+
+    ],
+    "exclusions" : [
+      "no billing have occurred"
+    ],
+    "figures" : [
+      "14 days",
+      "21 days"
+    ],
+    "productArea" : "unknown",
+    "request" : "I want to know which information is correct regarding the free trial duration, as my screen shows 21 days remaining while the documentation states it will expire in 14 days, and no billing has occurred."
+  }
+}

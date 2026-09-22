@@ -1,0 +1,161 @@
+{
+  "s01" : {
+    "deadlines" : [
+      "today"
+    ],
+    "exclusions" : [
+
+    ],
+    "figures" : [
+      "3 days"
+    ],
+    "productArea" : "unknown",
+    "request" : "The sales payment has failed completely since 3 days ago, and the salary must be paid today, but there is no reply from support."
+  },
+  "s02" : {
+    "deadlines" : [
+
+    ],
+    "exclusions" : [
+
+    ],
+    "figures" : [
+
+    ],
+    "productArea" : "iOS",
+    "request" : "After upgrading the iOS application SDK to version 4.2, the build fails. An linking error occurs with Xcode 27 for the arm64 simulator."
+  },
+  "s03" : {
+    "deadlines" : [
+      "next month"
+    ],
+    "exclusions" : [
+
+    ],
+    "figures" : [
+      "80 users",
+      "per person"
+    ],
+    "productArea" : "unknown",
+    "request" : "I want a quote for the Enterprise plan where the number of users is increased to 80 next month. What is the cost per person?"
+  },
+  "s04" : {
+    "deadlines" : [
+
+    ],
+    "exclusions" : [
+
+    ],
+    "figures" : [
+
+    ],
+    "productArea" : "unknown",
+    "request" : "I cannot log in because I lost the device I used for two-factor authentication after changing the model, and I did not receive the backup code."
+  },
+  "s05" : {
+    "deadlines" : [
+
+    ],
+    "exclusions" : [
+
+    ],
+    "figures" : [
+
+    ],
+    "productArea" : "unknown",
+    "request" : "I cannot log in to the management screen because the redirect keeps happening repeatedly, both on Chrome and Safari."
+  },
+  "s06" : {
+    "deadlines" : [
+
+    ],
+    "exclusions" : [
+
+    ],
+    "figures" : [
+      "12,000 yen"
+    ],
+    "productArea" : "unknown",
+    "request" : "Please confirm that the amount of the bill for the previous month is 12,000 yen higher than the contract."
+  },
+  "s07" : {
+    "deadlines" : [
+      "April 3rd"
+    ],
+    "exclusions" : [
+
+    ],
+    "figures" : [
+      "2026-03-15"
+    ],
+    "productArea" : "unknown",
+    "request" : "I submitted a request last Tuesday, and the bill due on April 3rd includes February usage and appears to be calculated at the pre-increase rate of March 15, 2026. What is the difference?"
+  },
+  "s08" : {
+    "deadlines" : [
+      "next month"
+    ],
+    "exclusions" : [
+
+    ],
+    "figures" : [
+
+    ],
+    "productArea" : "application",
+    "request" : "The application push notification is not arriving on the iPhone but is arriving on Android."
+  },
+  "s09" : {
+    "deadlines" : [
+
+    ],
+    "exclusions" : [
+
+    ],
+    "figures" : [
+
+    ],
+    "productArea" : "unknown",
+    "request" : "Please tell me the discount conditions for continuing the service if the price keeps rising."
+  },
+  "s10" : {
+    "deadlines" : [
+
+    ],
+    "exclusions" : [
+
+    ],
+    "figures" : [
+      "502",
+      "5 minutes",
+      "thousands"
+    ],
+    "productArea" : "unknown",
+    "request" : "The production API is returning 502 across all regions and has not recovered for 5 minutes. Thousands of users cannot complete payments."
+  },
+  "s11" : {
+    "deadlines" : [
+
+    ],
+    "exclusions" : [
+
+    ],
+    "figures" : [
+
+    ],
+    "productArea" : "unknown",
+    "request" : "I want to revoke the permissions and remove the account from the billing list for a retired member."
+  },
+  "s12" : {
+    "deadlines" : [
+      "14 days"
+    ],
+    "exclusions" : [
+      "charging has not occurred"
+    ],
+    "figures" : [
+      "21 days"
+    ],
+    "productArea" : "unknown",
+    "request" : "I want to know which date is correct for the free trial expiration—the one stated as 14 days or the one shown on my screen as 21 days—and confirm that no charging has occurred."
+  }
+}

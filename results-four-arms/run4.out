@@ -1,0 +1,35 @@
+
+=== 12 件の日本語問い合わせを 4 通りで振り分け ===
+
+| 構成 | 部署の正解率 | 緊急度のラベル一致率 | 合計時間 | うちオンデバイス | 入力トークン | コスト |
+|---|---|---|---|---|---|---|
+| A. Jev 単体（日本語のまま） | 92% | 75% | 3.66s | 0.00s | 6869 | $0.000288 |
+| B. Foundation Models 単体 | 92% | 75% | 5.61s | 5.61s | 0 | $0 |
+| C. FM で英語に整形 → Jev | 83% | 83% | 22.28s | 18.43s | 6925 | $0.000291 |
+| D. Jev の判定 → FM が最終判断 | 100% | 83% | 10.21s | 6.84s | 6869 | $0.000288 |
+
+=== 1 件あたりの平均 ===
+
+| 構成 | 平均レイテンシ |
+|---|---|
+| A | 0.31s |
+| B | 0.47s |
+| C | 1.86s |
+| D | 0.85s |
+
+=== サンプルごと（× は誤り） ===
+
+| ID | 難所 | 正解 | A | conf | B | C | conf | D Jev | D FM | D Jev conf |
+|---|---|---|---|---|---|---|---|---|---|---|
+| s01 | 平易 | billing | **technical** × | 0.34 | **technical** × | billing | 0.79 | billing | billing | 0.35 |
+| s02 | 平易 | technical | technical | 1.00 | technical | technical | 1.00 | technical | technical | 1.00 |
+| s03 | 平易 | sales | sales | 1.00 | sales | sales | 1.00 | sales | sales | 1.00 |
+| s04 | 平易 | account | account | 1.00 | account | account | 1.00 | account | account | 1.00 |
+| s05 | 否定・スコープ語 | technical | technical | 0.79 | technical | technical | 0.68 | technical | technical | 0.86 |
+| s06 | 否定・スコープ語 | billing | billing | 1.00 | billing | billing | 1.00 | billing | billing | 1.00 |
+| s07 | 日付・数値 | billing | billing | 1.00 | billing | billing | 1.00 | billing | billing | 1.00 |
+| s08 | 無関係な詳細 | technical | technical | 1.00 | technical | technical | 1.00 | technical | technical | 1.00 |
+| s09 | 否定・スコープ語 | sales | sales | 0.34 | sales | **billing** × | 0.43 | sales | sales | 0.49 |
+| s10 | 平易 | technical | technical | 1.00 | technical | technical | 1.00 | technical | technical | 1.00 |
+| s11 | 境界があいまい | account | account | 1.00 | account | account | 0.96 | account | account | 0.99 |
+| s12 | 日付・数値 | billing | billing | 0.81 | billing | **technical** × | 0.39 | billing | billing | 0.86 |

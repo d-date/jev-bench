@@ -1,0 +1,54 @@
+arm A: Jev on raw Japanese
+  A s01 ok
+  A s02 ok
+  A s03 ok
+  A s04 ok
+  A s05 ok
+  A s06 ok
+  A s07 ok
+  A s08 ok
+  A s09 ok
+  A s10 ok
+  A s11 ok
+  A s12 ok
+arm B: Foundation Models alone
+  B s01 ok
+  B s02 ok
+  B s03 ok
+  B s04 ok
+  B s05 ok
+  B s06 ok
+  B s07 ok
+  B s08 ok
+  B s09 ok
+  B s10 ok
+  B s11 ok
+  B s12 ok
+arm C: Foundation Models then Jev
+  C s01 ok
+  C s02 ok
+  C s03 ok
+  C s04 ok
+  C s05 ok
+  C s06 ok
+  C s07 ok
+  C s08 ok
+  C s09 ok
+  C s10 ok
+  C s11 ok
+  C s12 ok
+arm D: Jev then Foundation Models
+  D s01 ok
+  D s02 ok
+  D s03 ok
+  D s04 ok
+  D s05 ok
+  D s06 ok
+  D s07 ok
+  D s08 ok
+  D s09 ok
+  D s10 ok
+  D s11 ok
+  D s12 ok
+
+wrote normalized.json

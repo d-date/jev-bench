@@ -1,0 +1,14 @@
+{
+  "originHash" : "6f157fa9cc385a6b72abb5573b43d5bfe224988d9ff6cc7d8e257364f45a8b1d",
+  "pins" : [
+    {
+      "identity" : "swift-jev",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/d-date/swift-jev.git",
+      "state" : {
+        "revision" : "2c7ac472365ed3d7002ee2bdd1ac679024f12d3e"
+      }
+    }
+  ],
+  "version" : 3
+}
